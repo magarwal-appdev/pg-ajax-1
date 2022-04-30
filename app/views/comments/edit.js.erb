@@ -1,0 +1,4 @@
+console.log("edit js works");
+
+$("#<%= dom_id(@comment) %>").replaceWith("<%= j(render 'form', comment: @comment) %>");
+
